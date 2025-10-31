@@ -1,19 +1,23 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 0;
-    height: 85px;
     width: 100%;
 }
 
-.header-fix {
+header.header-fix {
+    height: 85px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     background-color: #eee;
     border-bottom: 1px solid #ddd;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+article {
+    text-align: justify;
 }
 
 .header-container {
